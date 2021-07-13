@@ -1027,5 +1027,122 @@
         "3Ba2n1kH8y5h3PBJyCmdXQxL89JPhRkVmU"
       ]
     ]
-  }
+  },
+  {
+    "network": "bitcoinvault",
+    "valid": [
+      "RHocmuC1TnQWWBTsuHXXmnhL1Cq54vVVhH",
+      "REXizJcCg5twub7n19p48vxxh6VKpnqwY4",
+      "RF3TdByQz7fJozNX9K8DxNsta26XBCrVpa",
+      "RWutEoLWEnWRuzcfHmJkFSWQPem6uYPxa1",
+      "RXcnBYTc5KBECzjiK1WDCgTgGbbARuvAvF",
+      "RPd4HKkbWMARBZUByepLCku98iVYbsWgJU",
+      "RDfAfEHoYpArakiUvqFF3BwmJbwn6Zf8pw",
+      "YgR74cHuifnG1Kbnp6v9vNByrB8Ax6iuvM",
+      "Yfoh8TbghpeeD9GUDqfKpBqweCrFe5X1yV",
+      "YmWuFvKpywh7YfZD2FPv4W5QHFzJDKjxXP",
+      "royale1qd8rmxztjmfvdrtelw27lyxc6j3vywd60mynz0p",
+      "royale1q56x7qmquhqal5suxpy8jax8ehqz5en6h6t56mg"
+    ],
+    "inValid": [
+      "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+      "1KXrWXciRDZUpQwQmuM1DbwsKDLYAYsVLR",
+      "16w1D5WRVKJuZUsSRzdLp9w3YGcgoxDXb",
+      "3CWFddi6m4ndiGyKqzYvsFYagqDLPVMTzC",
+      "3LDsS579y7sruadqu11beEJoTjdFiFCdX4",
+      "31nwvkZwyPdgzjBJZXfDmSWsC4ZLKpYyUw",
+      "18uKBY8mgA7MWfRHpw8faQRZQtssqXWSJS",
+      "3EUxVRMAwPk2ZpBdiqRtY9uxWXSkgVCTFN",
+      "bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq",
+      "bc1qc7slrfxkknqcq2jevvvkdgvrt8080852dfjewde450xdlk4ugp7szw5tk9",
+      "XekiLaxnqpFb2m4NQAEcsKutZcZgcyfo6W",
+      "XiBQaGtW6y1C52YtPBD4PTMntpA9hkBq5p",
+      "XqWgAZEGdWDUhbS1YxSwxrK3GLGdJjSHus",
+      "XbtvGzi2JgjYTbTqabUjSREWeovDxznoyh",
+      "Xx9R3uriMAF2W71WH5kwpNdoHxqzGGih3c",
+      "Xm9TJiJ7nWjme8K7iEPUGsC5JjYGzPk2QU",
+      "XvwKzdsn46psqy6WhZ2wfhRPyRkD6GL2BG",
+      "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "bitcoincash:qr95sy3j9xwd2ap32xkykttr4cvcu7as4y0qverfuy",
+      "bitcoincash:qqq3728yw0y47sqn6l2na30mcw6zm78dzqre909m2r",
+      "bitcoincash:ppm2qsznhks23z7629mms6s4cwef74vcwvn0h829pq",
+      "bitcoincash:pr95sy3j9xwd2ap32xkykttr4cvcu7as4yc93ky28e",
+      "bitcoincash:pqq3728yw0y47sqn6l2na30mcw6zm78dzq5ucqzc37",
+      "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a"
+    ],
+    "toLegacy": [
+      [
+        "YmWuFvKpywh7YfZD2FPv4W5QHFzJDKjxXP",
+        "YmWuFvKpywh7YfZD2FPv4W5QHFzJDKjxXP"
+      ]
+
+    ],
+    "toNewFormat": [
+      [
+        "royale1qazvw7dsju6dmm8vxrdar3ax5qq2pgkpawq9hzm",
+        "royale1qazvw7dsju6dmm8vxrdar3ax5qq2pgkpawq9hzm"
+      ]
+    ]
+  },
+  {
+    "network": "bitcoinvaulttestnet",
+    "valid": [
+      "2NBpepeeo5nmkosoiqdR9wbV8KnjbXexuEz",
+      "2N9X6UCLWq8NHpPmr6hqJStSkPXCFkW5Z6S",
+      "2ND4z8he7qav1GrY38n4oYmx2hhuB92jNfB",
+      "2MwpMsqquGVAuSwQ7njjNrRwNM9a3M9X9bF",
+      "n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W",
+      "miUHCJ7jmLJB4YYjXgE2zNvY6zwH4enW9T",
+      "mzFMsF7cjzQuEFg9WCbeTAAS3TkjNQKePP",
+      "mqQirxd6fMyydUdwtBdfcAvSQScJtKKukC",
+      "troyale1q6tmv35rccy0x63tcnjtg760scedrhtzlkv3gax",
+      "troyale1qxlm3usfthh8y0snwlag20qklvrnt4lthfyy3ev",
+      "troyale1qqyx7mw5pm83zf09dc2z7uhpv4hlg2mwsnramn4"
+    ],
+    "inValid": [
+      "1BpEi6DfDAUFd7GtittLSdBeYJvcoaVggu",
+      "1KXrWXciRDZUpQwQmuM1DbwsKDLYAYsVLR",
+      "16w1D5WRVKJuZUsSRzdLp9w3YGcgoxDXb",
+      "3CWFddi6m4ndiGyKqzYvsFYagqDLPVMTzC",
+      "3LDsS579y7sruadqu11beEJoTjdFiFCdX4",
+      "31nwvkZwyPdgzjBJZXfDmSWsC4ZLKpYyUw",
+      "18uKBY8mgA7MWfRHpw8faQRZQtssqXWSJS",
+      "3EUxVRMAwPk2ZpBdiqRtY9uxWXSkgVCTFN",
+      "bc1qar0srrr7xfkvy5l643lydnw9re59gtzzwf5mdq",
+      "bc1qc7slrfxkknqcq2jevvvkdgvrt8080852dfjewde450xdlk4ugp7szw5tk9",
+      "XekiLaxnqpFb2m4NQAEcsKutZcZgcyfo6W",
+      "XiBQaGtW6y1C52YtPBD4PTMntpA9hkBq5p",
+      "XqWgAZEGdWDUhbS1YxSwxrK3GLGdJjSHus",
+      "XbtvGzi2JgjYTbTqabUjSREWeovDxznoyh",
+      "Xx9R3uriMAF2W71WH5kwpNdoHxqzGGih3c",
+      "Xm9TJiJ7nWjme8K7iEPUGsC5JjYGzPk2QU",
+      "XvwKzdsn46psqy6WhZ2wfhRPyRkD6GL2BG",
+      "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "bitcoincash:qr95sy3j9xwd2ap32xkykttr4cvcu7as4y0qverfuy",
+      "bitcoincash:qqq3728yw0y47sqn6l2na30mcw6zm78dzqre909m2r",
+      "bitcoincash:ppm2qsznhks23z7629mms6s4cwef74vcwvn0h829pq",
+      "bitcoincash:pr95sy3j9xwd2ap32xkykttr4cvcu7as4yc93ky28e",
+      "bitcoincash:pqq3728yw0y47sqn6l2na30mcw6zm78dzq5ucqzc37",
+      "bitcoincash:qpm2qsznhks23z7629mms6s4cwef74vcwvy22gdx6a",
+      "RPd4HKkbWMARBZUByepLCku98iVYbsWgJU",
+      "RDfAfEHoYpArakiUvqFF3BwmJbwn6Zf8pw",
+      "YgR74cHuifnG1Kbnp6v9vNByrB8Ax6iuvM",
+      "Yfoh8TbghpeeD9GUDqfKpBqweCrFe5X1yV",
+      "YmWuFvKpywh7YfZD2FPv4W5QHFzJDKjxXP",
+      "royale1qd8rmxztjmfvdrtelw27lyxc6j3vywd60mynz0p"
+    ],
+    "toLegacy": [
+      [
+        "mqQirxd6fMyydUdwtBdfcAvSQScJtKKukC",
+        "mqQirxd6fMyydUdwtBdfcAvSQScJtKKukC"
+      ]
+
+    ],
+    "toNewFormat": [
+      [
+        "troyale1qxlm3usfthh8y0snwlag20qklvrnt4lthfyy3ev",
+        "troyale1qxlm3usfthh8y0snwlag20qklvrnt4lthfyy3ev"
+      ]
+    ]
+  }    
 ]

@@ -8,6 +8,8 @@ import { bitcoingold } from './bitcoingold.js'
 import { bitcoingoldTestnet } from './bitcoingoldtestnet.js'
 import { bitcoinsv } from './bitcoinsv.js'
 import { bitcoinTestnet } from './bitcointestnet.js'
+import { bitcoinvault } from './bitcoinvault.js'
+import { bitcoinvaultTestnet } from './bitcoinvaulttestnet.js'
 import { dash } from './dash.js'
 import { digibyte } from './digibyte.js'
 import { dogecoin } from './dogecoin.js'
@@ -30,6 +32,8 @@ export const allInfo = [
   bitcoingold,
   bitcoingoldTestnet,
   bitcoinsv,
+  bitcoinvault,
+  bitcoinvaultTestnet,
   bitcoinTestnet,
   dash,
   digibyte,

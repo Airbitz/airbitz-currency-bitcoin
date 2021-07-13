@@ -1078,5 +1078,503 @@
         }
       }]
     }
+  },
+  {
+    "pluginId": "bitcoinvault",
+    "WALLET_TYPE": "wallet:bitcoinvault",
+    "WALLET_FORMAT": "bip32",
+    "Test Currency code": "BTCV",
+    "key": [
+      39,
+      190,
+      34,
+      129,
+      208,
+      32,
+      145,
+      88,
+      191,
+      217,
+      226,
+      98,
+      183,
+      16,
+      52,
+      150,
+      52,
+      53,
+      31,
+      137,
+      164,
+      40,
+      236,
+      146,
+      128,
+      107,
+      129,
+      59,
+      192,
+      240,
+      40,
+      238
+    ],
+    "xpub": "xpub69FqMgncSEcrs989ejBWTBBcDNFDqkwEd7y53pVeXm8368TNfb9jCd2ne3ccpx9vvgBdpv79Edc69i2Q69kXtrdmLcQM8seffnCXzwzvWa6",
+    "invalid key name": {
+      "type": "wallet:bitcoinvault",
+      "keys": {
+        "bitcoinvaultKeyz": "12345678abcd"
+      }
+    },
+    "invalid wallet type": {
+      "type": "shitcoin",
+      "keys": {
+        "bitcoinvaultKeyz": "12345678abcd"
+      }
+    },
+    "parseUri": {
+      "address only": [
+        "YgR74cHuifnG1Kbnp6v9vNByrB8Ax6iuvM",
+        {
+          "publicAddress": "YgR74cHuifnG1Kbnp6v9vNByrB8Ax6iuvM",
+          "metadata": {}
+        }
+      ],
+      "address only2": [
+        "RWutEoLWEnWRuzcfHmJkFSWQPem6uYPxa1",
+        {
+          "publicAddress": "RWutEoLWEnWRuzcfHmJkFSWQPem6uYPxa1",
+          "metadata": {}
+        }
+      ],
+      "address only3": [
+        "royale1q56x7qmquhqal5suxpy8jax8ehqz5en6h6t56mg",
+        {
+          "publicAddress": "royale1q56x7qmquhqal5suxpy8jax8ehqz5en6h6t56mg",
+          "metadata": {}
+        }
+      ],
+      "address only4": [
+        "royale1qd8rmxztjmfvdrtelw27lyxc6j3vywd60mynz0p",
+        {
+          "publicAddress": "royale1qd8rmxztjmfvdrtelw27lyxc6j3vywd60mynz0p",
+          "metadata": {}
+        }
+      ],
+      "uri address": [
+        "bitcoinvault:YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88",
+        {
+          "publicAddress": "YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88",
+          "metadata": {}
+        }
+      ],
+      "uri address with amount": [
+        "bitcoinvault:YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88?amount=12345.6789",
+        {
+          "publicAddress": "YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88",
+          "metadata": {},
+          "nativeAmount": "1234567890000",
+          "currencyCode": "BTCV"
+        }
+      ],
+      "uri address with amount and without prefix": [
+        "YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88?amount=12345.6789",
+        {
+          "publicAddress": "YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88",
+          "metadata": {},
+          "nativeAmount": "1234567890000",
+          "currencyCode": "BTCV"
+        }
+      ],
+      "uri address with amount & label": [
+        "bitcoinvault:YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88?amount=1234.56789&label=Johnny%20BitcoinVault",
+        {
+          "publicAddress": "YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88",
+          "metadata": {
+            "name": "Johnny BitcoinVault"
+          },
+          "nativeAmount": "123456789000",
+          "currencyCode": "BTCV"
+        }
+      ],
+      "uri address with amount, label & message": [
+        "bitcoinvault:YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88?amount=1234.56789&label=Johnny%20BitcoinVault&message=Hello%20World,%20I%20miss%20you%20!",
+        {
+          "publicAddress": "YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88",
+          "metadata": {
+            "name": "Johnny BitcoinVault",
+            "notes": "Hello World, I miss you !"
+          },
+          "nativeAmount": "123456789000",
+          "currencyCode": "BTCV"
+        }
+      ],
+      "uri address with unsupported param": [
+        "bitcoinvault:YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88?unsupported=helloworld&amount=12345.6789",
+        {
+          "publicAddress": "YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88",
+          "metadata": {},
+          "nativeAmount": "1234567890000",
+          "currencyCode": "BTCV"
+        }
+      ],
+      "wif 1 - Compressed": [
+        "L1saMXNZaRfjhHT4KMXqRGHebvbmT1ahTztxShfgjqj1S5g7igVW",
+        {
+          "metadata": {},
+          "privateKeys": [
+            "L1saMXNZaRfjhHT4KMXqRGHebvbmT1ahTztxShfgjqj1S5g7igVW"
+          ]
+        }
+      ],
+      "wif 2 - Compressed": [
+        "KxiApmg4vNK13wpYhgij3f7HSprxAhNeiMNgo4iKfn51Dmgt6n8C",
+        {
+          "metadata": {},
+          "privateKeys": [
+            "KxiApmg4vNK13wpYhgij3f7HSprxAhNeiMNgo4iKfn51Dmgt6n8C"
+          ]
+        }
+      ],
+      "wif 1 - Non Compressed": [
+        "5JsRmyj3Pynw5bYHA9H3pBiP7Z5htCuww9ayWqdrnWAX1GqwHoU",
+        {
+          "metadata": {},
+          "privateKeys": [
+            "5JsRmyj3Pynw5bYHA9H3pBiP7Z5htCuww9ayWqdrnWAX1GqwHoU"
+          ]
+        }
+      ],
+      "wif 2 - Non Compressed": [
+        "5J9siBaKZUwNmAhgMYf11bv5dfV5o9hFSEE52py2xuog28yKrym",
+        {
+          "metadata": {},
+          "privateKeys": [
+            "5J9siBaKZUwNmAhgMYf11bv5dfV5o9hFSEE52py2xuog28yKrym"
+          ]
+        }
+      ]
+    },
+    "encodeUri": {
+      "address only": [
+        {
+          "publicAddress": "RHocmuC1TnQWWBTsuHXXmnhL1Cq54vVVhH"
+        },
+        "RHocmuC1TnQWWBTsuHXXmnhL1Cq54vVVhH"
+      ],
+      "legacy address1": [
+        {
+          "legacyAddress": "YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88"
+        },
+        "YT3zia84WFTSGRtyMdCGSdSDZ8VyDuxp88"
+      ],
+      "legacy address2": [
+        {
+          "legacyAddress": "YgR74cHuifnG1Kbnp6v9vNByrB8Ax6iuvM"
+        },
+        "YgR74cHuifnG1Kbnp6v9vNByrB8Ax6iuvM"
+      ],
+      "legacy address": [
+        {
+          "legacyAddress": "YmWuFvKpywh7YfZD2FPv4W5QHFzJDKjxXP"
+        },
+        "YmWuFvKpywh7YfZD2FPv4W5QHFzJDKjxXP"
+      ],
+      "new format address": [
+        {
+          "publicAddress": "royale1qd8rmxztjmfvdrtelw27lyxc6j3vywd60mynz0p"
+        },
+        "royale1qd8rmxztjmfvdrtelw27lyxc6j3vywd60mynz0p"
+      ],
+      "address & amount": [
+        {
+          "publicAddress": "RXcnBYTc5KBECzjiK1WDCgTgGbbARuvAvF",
+          "nativeAmount": "123456780000"
+        },
+        "bitcoinvault:RXcnBYTc5KBECzjiK1WDCgTgGbbARuvAvF?amount=1234.5678"
+      ],
+      "address, amount, and label": [
+        {
+          "publicAddress": "RXcnBYTc5KBECzjiK1WDCgTgGbbARuvAvF",
+          "nativeAmount": "123456780000",
+          "currencyCode": "BTCV",
+          "metadata": {
+            "name": "Johnny Bitcoin"
+          }
+        },
+        "bitcoinvault:RXcnBYTc5KBECzjiK1WDCgTgGbbARuvAvF?amount=1234.5678&label=Johnny%20Bitcoin"
+      ],
+      "address, amount, label, & message": [
+        {
+          "publicAddress": "royale1qz3evs5s093556sz5gru9hnztsqgpc4z8jfxpad",
+          "nativeAmount": "123456780000",
+          "currencyCode": "BTCV",
+          "metadata": {
+            "name": "Johnny Bitcoin",
+            "notes": "Hello World, I miss you !"
+          }
+        },
+        "bitcoinvault:royale1qz3evs5s093556sz5gru9hnztsqgpc4z8jfxpad?amount=1234.5678&label=Johnny%20Bitcoin&message=Hello%20World,%20I%20miss%20you%20!"
+      ],
+      "invalid currencyCode": [
+        {
+          "publicAddress": "royale1qz3evs5s093556sz5gru9hnztsqgpc4z8jfxpad",
+          "nativeAmount": "123456780000",
+          "currencyCode": "INVALID",
+          "metadata": {
+            "name": "Johnny Bitcoin",
+            "notes": "Hello World, I miss you !"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "pluginId": "bitcoinvaulttestnet",
+    "WALLET_TYPE": "wallet:bitcoinvaulttestnet",
+    "WALLET_FORMAT": "bip32",
+    "Test Currency code": "TBTCV",
+    "key": [
+      39,
+      190,
+      34,
+      129,
+      208,
+      32,
+      145,
+      88,
+      191,
+      217,
+      226,
+      98,
+      183,
+      16,
+      52,
+      150,
+      52,
+      53,
+      31,
+      137,
+      164,
+      40,
+      236,
+      146,
+      128,
+      107,
+      129,
+      59,
+      192,
+      240,
+      40,
+      238
+    ],
+    "xpub": "vpub5Vhb8S3x4SzydWggXfJkDB7iihv41tp1h9somDjFdFsbargc3wHCcpoADRNJ8S2UG5Xjwg4E1cpcaGVuNcmm5A2LxMgpb2z9yiQEWvJKhMh",
+    "invalid key name": {
+      "type": "wallet:bitcoinvaulttestnet",
+      "keys": {
+        "bitcoinvaultKeyz": "12345678abcd"
+      }
+    },
+    "invalid wallet type": {
+      "type": "shitcoin",
+      "keys": {
+        "bitcoinvaultKeyz": "12345678abcd"
+      }
+    },
+    "parseUri": {
+      "address only": [
+        "2NBpepeeo5nmkosoiqdR9wbV8KnjbXexuEz",
+        {
+          "publicAddress": "2NBpepeeo5nmkosoiqdR9wbV8KnjbXexuEz",
+          "metadata": {}
+        }
+      ],
+      "address only2": [
+        "2N9X6UCLWq8NHpPmr6hqJStSkPXCFkW5Z6S",
+        {
+          "publicAddress": "2N9X6UCLWq8NHpPmr6hqJStSkPXCFkW5Z6S",
+          "metadata": {}
+        }
+      ],
+      "address only3": [
+        "troyale1qxlm3usfthh8y0snwlag20qklvrnt4lthfyy3ev",
+        {
+          "publicAddress": "troyale1qxlm3usfthh8y0snwlag20qklvrnt4lthfyy3ev",
+          "metadata": {}
+        }
+      ],
+      "address only4": [
+        "troyale1qqyx7mw5pm83zf09dc2z7uhpv4hlg2mwsnramn4",
+        {
+          "publicAddress": "troyale1qqyx7mw5pm83zf09dc2z7uhpv4hlg2mwsnramn4",
+          "metadata": {}
+        }
+      ],
+      "uri address": [
+        "bitcoinvaulttestnet:n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W",
+        {
+          "publicAddress": "n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W",
+          "metadata": {}
+        }
+      ],
+      "uri address with amount": [
+        "bitcoinvaulttestnet:n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W?amount=12345.6789",
+        {
+          "publicAddress": "n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W",
+          "metadata": {},
+          "nativeAmount": "1234567890000",
+          "currencyCode": "TBTCV"
+        }
+      ],
+      "uri address with amount and without prefix": [
+        "n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W?amount=12345.6789",
+        {
+          "publicAddress": "n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W",
+          "metadata": {},
+          "nativeAmount": "1234567890000",
+          "currencyCode": "TBTCV"
+        }
+      ],
+      "uri address with amount & label": [
+        "bitcoinvaulttestnet:n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W?amount=1234.56789&label=Johnny%20BitcoinVault",
+        {
+          "publicAddress": "n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W",
+          "metadata": {
+            "name": "Johnny BitcoinVault"
+          },
+          "nativeAmount": "123456789000",
+          "currencyCode": "TBTCV"
+        }
+      ],
+      "uri address with amount, label & message": [
+        "bitcoinvaulttestnet:n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W?amount=1234.56789&label=Johnny%20BitcoinVault&message=Hello%20World,%20I%20miss%20you%20!",
+        {
+          "publicAddress": "n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W",
+          "metadata": {
+            "name": "Johnny BitcoinVault",
+            "notes": "Hello World, I miss you !"
+          },
+          "nativeAmount": "123456789000",
+          "currencyCode": "TBTCV"
+        }
+      ],
+      "uri address with unsupported param": [
+        "bitcoinvaulttestnet:n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W?unsupported=helloworld&amount=12345.6789",
+        {
+          "publicAddress": "n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W",
+          "metadata": {},
+          "nativeAmount": "1234567890000",
+          "currencyCode": "TBTCV"
+        }
+      ],
+      "wif 1 - Compressed": [
+        "cP5AHgfvMS1GDPHp66XrQycM54AMq9ULnPX9uVAqAtj1UWnBiChQ",
+        {
+          "metadata": {},
+          "privateKeys": [
+            "cP5AHgfvMS1GDPHp66XrQycM54AMq9ULnPX9uVAqAtj1UWnBiChQ"
+          ]
+        }
+      ],
+      "wif 2 - Compressed": [
+        "cP2oZoH4boRjNRS3qdX8AGp7AjdeqA7VCN6HCfV1fX2Td1od4mhV",
+        {
+          "metadata": {},
+          "privateKeys": [
+            "cP2oZoH4boRjNRS3qdX8AGp7AjdeqA7VCN6HCfV1fX2Td1od4mhV"
+          ]
+        }
+      ],
+      "wif 1 - Non Compressed": [
+        "91vWHvPs9i1WjECxytYutCU3HKqnxKESnB627TKYJeYioDfAvBW",
+        {
+          "metadata": {},
+          "privateKeys": [
+            "91vWHvPs9i1WjECxytYutCU3HKqnxKESnB627TKYJeYioDfAvBW"
+          ]
+        }
+      ],
+      "wif 2 - Non Compressed": [
+        "91uyKJjcFgX5APJTUL9dy2KNnhvckzM3mGCcqrxHTrPzEce3Uj8",
+        {
+          "metadata": {},
+          "privateKeys": [
+            "91uyKJjcFgX5APJTUL9dy2KNnhvckzM3mGCcqrxHTrPzEce3Uj8"
+          ]
+        }
+      ]
+    },
+    "encodeUri": {
+      "address only": [
+        {
+          "publicAddress": "2N9X6UCLWq8NHpPmr6hqJStSkPXCFkW5Z6S"
+        },
+        "2N9X6UCLWq8NHpPmr6hqJStSkPXCFkW5Z6S"
+      ],
+      "legacy address1": [
+        {
+          "legacyAddress": "miUHCJ7jmLJB4YYjXgE2zNvY6zwH4enW9T"
+        },
+        "miUHCJ7jmLJB4YYjXgE2zNvY6zwH4enW9T"
+      ],
+      "legacy address2": [
+        {
+          "legacyAddress": "n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W"
+        },
+        "n2Z76A8ygzk1KRtNnMb6LYJJe3KS3k3c4W"
+      ],
+      "legacy address": [
+        {
+          "legacyAddress": "mqQirxd6fMyydUdwtBdfcAvSQScJtKKukC"
+        },
+        "mqQirxd6fMyydUdwtBdfcAvSQScJtKKukC"
+      ],
+      "new format address": [
+        {
+          "publicAddress": "troyale1q6tmv35rccy0x63tcnjtg760scedrhtzlkv3gax"
+        },
+        "troyale1q6tmv35rccy0x63tcnjtg760scedrhtzlkv3gax"
+      ],
+      "address & amount": [
+        {
+          "publicAddress": "2MwpMsqquGVAuSwQ7njjNrRwNM9a3M9X9bF",
+          "nativeAmount": "123456780000"
+        },
+        "bitcoinvaulttestnet:2MwpMsqquGVAuSwQ7njjNrRwNM9a3M9X9bF?amount=1234.5678"
+      ],
+      "address, amount, and label": [
+        {
+          "publicAddress": "2MwpMsqquGVAuSwQ7njjNrRwNM9a3M9X9bF",
+          "nativeAmount": "123456780000",
+          "currencyCode": "TBTCV",
+          "metadata": {
+            "name": "Johnny Bitcoin"
+          }
+        },
+        "bitcoinvaulttestnet:2MwpMsqquGVAuSwQ7njjNrRwNM9a3M9X9bF?amount=1234.5678&label=Johnny%20Bitcoin"
+      ],
+      "address, amount, label, & message": [
+        {
+          "publicAddress": "troyale1qqyx7mw5pm83zf09dc2z7uhpv4hlg2mwsnramn4",
+          "nativeAmount": "123456780000",
+          "currencyCode": "TBTCV",
+          "metadata": {
+            "name": "Johnny Bitcoin",
+            "notes": "Hello World, I miss you !"
+          }
+        },
+        "bitcoinvaulttestnet:troyale1qqyx7mw5pm83zf09dc2z7uhpv4hlg2mwsnramn4?amount=1234.5678&label=Johnny%20Bitcoin&message=Hello%20World,%20I%20miss%20you%20!"
+      ],
+      "invalid currencyCode": [
+        {
+          "publicAddress": "troyale1qqyx7mw5pm83zf09dc2z7uhpv4hlg2mwsnramn4",
+          "nativeAmount": "123456780000",
+          "currencyCode": "INVALID",
+          "metadata": {
+            "name": "Johnny Bitcoin",
+            "notes": "Hello World, I miss you !"
+          }
+        }
+      ]
+    }
   }
 ]
